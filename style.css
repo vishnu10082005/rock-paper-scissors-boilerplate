@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Oswald:wght@300&family=Roboto:wght@300;400&family=Work+Sans&display=swap');
+
+
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+body{
+    background-image: url("./assets/bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.score h1{
+    margin-top: 50px;
+    font-size: 100px;
+}
+
+.game{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin: auto;
+}
+
+.box{
+    width: 450px;
+    height: 450px;
+    border: 2px solid #F4AA3A;
+    font-size: 36px;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+    margin-top: 25px;
+}
+
+#select img{
+    height: 275px;
+}
+
+
+.you .options{
+    display:  flex;
+    justify-content: space-around;
+}
+
+.VS img{
+    height: 78vh;
+}
+.winner h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.playagain{
+    width: 200px;
+    height: 50px;
+    font-size: 36px;
+    font-weight: 800;
+    background-color: #F4AA3A;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}

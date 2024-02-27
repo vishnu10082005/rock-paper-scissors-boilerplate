@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Oswald:wght@300&family=Roboto:wght@300;400&family=Work+Sans&display=swap');
+
+
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+body{
+    background-image: url("./assets/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.heading h1{
+    color: #5C38C0;
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 50px;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    width: 65vw;
+    align-items: end;
+    margin: auto;
+}
+.play{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 225px;
+    height: 50px;
+}
+.play img{
+    width: 35px;
+    height: 35px;
+}
+.play p{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+#play{
+    background: transparent;
+    border: none;
+}

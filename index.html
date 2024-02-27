@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="score">
+        <h1><span id="userScore">0</span> - <span id="compScore">0</span></h1>
+    </section>
+    <section class="game">
+        <div class="box you">
+            <div class="player">You</div>
+            <div id="select">
+                <img id="userSelectionImg" src="" alt="">
+            </div>
+            <div class="options">
+                <div class="option" id="rock">
+                    <img src="./assets/rock-logo.png" alt="rock">
+                </div>
+                <div class="option" id="paper">
+                    <img src="./assets/paper-logo.png" alt="paper">
+                </div>
+                <div class="option" id="scissors">
+                    <img src="./assets/scissors-logo.png" alt="scissors">
+                </div>
+            </div>
+        </div>        
+        <div class="VS">
+            <img src="./assets/vs.png" alt="Vs">
+        </div>        
+        <div class="box comp">
+            <div class="player">Comp</div>
+            <img id="compSelectionImg" src="" alt="">
+        </div>        
+    </section>
+    <section class="winner">
+        <h1><span id="winnerText"></span> won the Game</h1>
+        <a href="./index.html"><button class="playAgainBtn" >Play Again</button></a>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
